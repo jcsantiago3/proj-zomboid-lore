@@ -1,0 +1,101 @@
+/* ========== CSS RESET (modern minimal) ========== */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+}
+
+/* ========== MEDIA DEFAULTS ========== */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* ========== FORM ELEMENTS ========== */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* ========== ROOT VARIABLES ========== */
+:root {
+    --color-bg: #ffffff;
+    --color-text: #111111;
+    --color-primary: #4f46e5;
+
+    --font-base: system-ui, sans-serif;
+
+    --spacing: 1rem;
+}
+
+/* ========== BASE STYLES ========== */
+body {
+    font-family: var(--font-base);
+    color: var(--color-text);
+}
+
+.spacer {
+    width: 100%;
+    height: 15vh;
+}
+
+.container {
+    width: 70vw;
+    background-color: white;
+    padding: 1rem;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3vh;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.notice-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.notice {
+    display: flex;
+    font-size: 0.7rem;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1.5vh 0;
+}
+
+.notice b {
+    font-size: 0.8rem
+}
