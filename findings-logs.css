@@ -60,9 +60,9 @@ body {
 }
 
 .container {
-    width: 70vw;
+    width: 50vw;
     background-color: white;
-    padding: 1rem;
+    padding: 3rem;
 }
 
 .title {
@@ -99,3 +99,6 @@ body {
 .notice b {
     font-size: 0.8rem
 }
+
+hr{
+margin: 1vh 0}
