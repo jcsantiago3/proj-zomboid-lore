@@ -34,13 +34,13 @@ function checkPassword(event) {
             window.location.href = "relog1.html";
             break;
         case "relog2":
-            window.location.href = "relog1.html";
+            window.location.href = "relog2.html";
             break;
         case "relog3":
-            window.location.href = "relog1.html";
+            window.location.href = "relog3.html";
             break;
         case "relog4":
-            window.location.href = "relog1.html";
+            window.location.href = "relog4.html";
             break;
         case "acclog":
             window.location.href = "acclog.html";
