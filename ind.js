@@ -42,6 +42,9 @@ function checkPassword(event) {
         case "relog4":
             window.location.href = "relog1.html";
             break;
+        case "acclog":
+            window.location.href = "relog1.html";
+            break;
         default: alert("Wrong code. Please try again.");
     }
 }
