@@ -29,7 +29,7 @@ function checkPassword(event) {
             break;
         case "reprof":
             window.location.href = "reprof.html";
-            break;  
+            break;
         case "relog1":
             window.location.href = "relog1.html";
             break;
@@ -44,6 +44,9 @@ function checkPassword(event) {
             break;
         case "acclog":
             window.location.href = "acclog.html";
+            break;
+        case "allog1":
+            window.location.href = "allog1.html";
             break;
         default: alert("Wrong code. Please try again.");
     }
